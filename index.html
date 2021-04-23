@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon for website -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/logo/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/logo/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/logo/favicon/site.webmanifest">
+
+    <title>Movies Match | Home</title>
+
+    <!-- Linking Fontawesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <!-- Linking Flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <!-- >>>Change the header bg and add the gif remove the text -->
+    <header>
+        <div class="banner"></div>
+
+        <!-- Navigation Bar -->
+        <hr>
+        <nav>
+            <!-- >>>Change Home with the logo -->
+            <a href="#">
+                <img class="logo" src="./assets/logo/My Post Copy.png" alt="Logo Movie Match">
+            </a>
+            <a class="menu-btn" href="#">Movies</a>
+            <a class="menu-btn" href="#">Webseries</a>
+            <a class="menu-btn" href="#">Anime</a>
+            <a class="menu-btn" href="#">Our Recommendation</a>
+            <a class="menu-btn flex-align-left" href="#">Login/SignUp</a>
+        </nav>
+        <hr>
+    </header> 
+    <main>
+        <section>
+            <h2><span>Movies</span></h2>
+            <!-- Courses Carousel -->
+            <div class="carousel js-flickity" data-flickity='{"wrapAround": true }'>
+                <div class="carousel-cell"><video src="assets/courses/webdev/lectures/html.mp4"
+                        poster="assets/courses/webdev/thumbnail/webdev.png" controls></video></div>
+                <div class="carousel-cell"><video src="assets/courses/chemistry/lectures/electrochemistry.mp4"
+                        poster="assets/courses/chemistry/thumbnail/electrochemistry.jpg" controls></video>
+                </div>
+                <div class="carousel-cell"><video src="assets/courses/maths/lectures/maths.mp4"
+                        poster="assets/courses/maths/thumbnail/maths.jpg" controls></video></div>
+                <div class="carousel-cell"><video src="assets/courses/python/lectures/python-lec1.mp4"
+                        poster="assets/courses/python/thumbnail/python-lec1.jpg" controls></video></div>
+                <div class="carousel-cell"><video src="assets/courses/cpp/lectures/cpp.mp4"
+                        poster="assets/courses/cpp/thumbnail/cpp.jpg" controls></video></div>
+            </div>
+        </section>
+        <section>
+            <h2><span>WebSeries</span></h2>
+            <!-- Web Series -->
+            <div class="carousel js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                <div class="carousel-cell iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0Kl1ucZuSZ8" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+
+                </div>
+
+                <div class="carousel-cell iframe-container"><<iframe width="560" height="315" src="https://www.youtube.com/embed/JWbnEt3xuos" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+                
+                <div class="carousel-cell iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yIQOkymUXHU" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+                </div>
+
+               
+                <div class="carousel-cell iframe-container"><<iframe width="560" height="315" src="https://www.youtube.com/embed/6QoDVoKumMs" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+
+                <!-- to link folder to page-->
+                <!-- <div class="carousel-cell">
+                    <a target="_blank" href="assets/courses/chemistry/notes/Class 12 Solution Complete NCERT.pdf"><img
+                            class="img-responsive"
+                            src="assets/courses/chemistry/notes/Class 12 Solution Complete NCERT.png"></a>
+                </div>-->
+                
+            </div>
+        </section>
+        <section class="study_material">
+            <h2><span>Anime</span></h2>
+            <!-- Notes Carousel -->
+            <div class="carousel js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                <div class="carousel-cell">
+                    <a target="_blank" href="assets/courses/chemistry/notes/Class 12 Solution Complete NCERT.pdf"><img
+                            class="img-responsive"
+                            src="assets/courses/chemistry/notes/Class 12 Solution Complete NCERT.png"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a target="_blank"
+                        href="assets/courses/chemistry/notes/Solid State New Complete Chapter Notes.pdf"><img
+                            class="img-responsive"
+                            src="assets/courses/chemistry/notes/Solid State New Complete Chapter Notes.jpg" alt=""></a>
+                </div>
+                <div class="carousel-cell">
+                    <a target="_blank" href="assets/courses/chemistry/notes/Electrochemistry  Complete NCERT.pdf"><img
+                            class="img-responsive"
+                            src="assets/courses/chemistry/notes/Electrochemistry  Complete NCERT.jpg"></a>
+                </div>
+                <div class="carousel-cell">
+                    <a target="_blank" href="assets/notes/Coordination Compound 3.pdf"><img class="img-responsive"
+                            src="assets/courses/chemistry/notes/Coordination Compound 3.jpg"></a>
+                </div>
+        </section>
+        <section class="our_founder">
+            <h2><span>Our Recommendation</span></h2>
+
+
+            <!-- div class="sm-handle">
+
+                <a class="insta_handle" href="https://www.instagram.com/movies.match" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-instagram fa-lg"></i>Instagram</a>
+                   
+                <a class="Telegram_handle" href="https://t.me/screenscomestrue" target="_blank"
+                    rel="noopener noreferrer"><i class="fab fa-telegram fa-lg"></i>Telegram</a>
+            </div-->
+           
+
+            
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="sm-handle">
+
+            <a class="insta_handle" href="https://www.instagram.com/movies.match" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-instagram fa-lg"></i>Instagram</a>
+               
+            <a class="Telegram_handle" href="https://t.me/screenscomestrue" target="_blank"
+                rel="noopener noreferrer"><i class="fab fa-telegram fa-lg"></i>Telegram</a>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+
+
+
+        <a href="#" class="flex-align-left">&copy; 2021 | Movies Match</a>
+    </footer>
+    <!-- Flickity JS files -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
